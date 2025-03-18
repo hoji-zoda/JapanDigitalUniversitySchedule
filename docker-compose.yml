@@ -14,6 +14,7 @@ services:
 
     jdu_app:
         container_name: jdu_app
+        working_dir: /var/www
         build:
             context: .
             dockerfile: ./Dockerfile
